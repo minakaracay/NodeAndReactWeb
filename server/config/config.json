@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
+    "username": "sa",
+    "password": "123456789",
+    "database": "JSDB",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql"
   },
   "test": {
-    "username": "root",
+    "username": "DESKTOP-AL69OQG\\Mina",
     "password": null,
-    "database": "database_test",
+    "database": "JSDB",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql"
   },
   "production": {
-    "username": "root",
+    "username": "DESKTOP-AL69OQG\\Mina",
     "password": null,
-    "database": "database_production",
+    "database": "JSDB",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mssql"
   }
 }

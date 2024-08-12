@@ -1,0 +1,19 @@
+const tedious = require('tedious');
+const { Sequelize } = require('sequelize');
+
+const dialect = 'mssql';
+const host = 'localhost';
+const userName   = 'sa';
+const password = '123456789';
+
+// connect to db
+const sequelize = new Sequelize('JSDB', userName, password, { host, dialect });
+
+sequelize
+.authenticate()
+.then(() => {
+console.log('Connection has been established successfully.');
+})
+.catch(err => {
+console.error('Unable to connect to the database:', err);
+});
