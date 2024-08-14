@@ -16,6 +16,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
     "msnodesqlv8": "^4.2.1",
     "mssql": "^11.0.1",
     "mysql2": "^3.11.0",
@@ -24,5 +26,8 @@
     "sequelize": "^6.37.3",
     "sequelize-cli": "^6.6.2",
     "tedious": "^18.3.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
   }
 }
